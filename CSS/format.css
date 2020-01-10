@@ -1,0 +1,544 @@
+body{
+    width: 1100px;
+    margin: 0px auto;
+    font-family:tahoma;
+    
+}
+#left{
+   width: 20%;
+   height: auto;
+   float: left;
+}
+#right{
+    width: 80%;
+    float: left;
+    border-left:1px solid gray; 
+    border-right:1px solid gray; 
+    margin-left: -10px;
+    height: 1270px;
+}
+#right #banner{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#right #bottom{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 70px;
+}
+
+#left #image img{
+    width:100%;
+    height:100%;
+    margin-left:-10px;
+}
+#left #danh_muc ul li a{
+    line-height:30px;
+    height: auto;
+    display: block;
+    text-decoration: none;
+    border:1px solid gray;
+    padding-left: 10px;
+    background-color: #efefef;
+    border-radius: 4px;
+    margin: 0px 5px 5px 0px;
+    color: #4d4949;
+    
+}
+#left #danh_muc ul { 
+        margin:  0px;
+          padding:0px;
+        width: 200px;     
+        
+}
+#left #danh_muc ul li { 
+   position: relative;  
+   padding: 0px;
+   list-style: none;
+   color: #4d4949;
+}
+
+#left #danh_muc .menu{
+    position: absolute;
+    display:none;
+    width: 200px;
+    left:200px;
+    top:0px;
+}
+#left #danh_muc ul li a:hover{
+    background-color: #4978bc;
+    color: white;
+
+}
+#left #danh_muc ul li:hover .menu{
+    display: block;
+ }
+ #left #danh_muc .menu a {
+    color:black;
+    background-color: white;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+ #left #danh_muc .menu li a:hover{
+     background-color: white;
+     color: #229ff0;
+     opacity: 1; 
+ }
+
+ .tach {
+     position: relative; 
+     color: none; 
+ }
+
+#left #danh_muc ul li a.gift{
+    background: white ;
+    width: 182px;
+    height: 1000px;
+    margin: 5px 5px 0px 0px;
+    border:1px solid gray;
+    font-size: 13px;
+    line-height: 13px;
+    color: #4d4949;
+    border-bottom: hidden;
+    padding-bottom: -10px;
+}
+#left #danh_muc ul li a img{
+    width: 173px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 780px;
+}
+#right .head {
+    width: 85%;
+    height: 40px;
+    background-color:#f1f1f1;
+    float: left;
+    margin-right: 400px;
+    font-size: 13px;
+    color: #4d4949;
+}
+
+#right .head  a img{
+    margin: 5px 0px 5px 4px;
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#right .head .mobile_phone {
+    margin-left: 80px;
+    
+    font-size: 13px;
+    opacity: 0.7;
+}
+#right .head .mobile_phone:hover{
+    opacity: 1;
+}
+#right .head .mobile-phone-text{
+    color:#4d4949;
+    opacity: 0.7;
+}
+#right .head .mobile-phone-text:hover{
+    opacity: 1;
+}
+#right .head .help {
+    color:#4d4949;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left:15px;
+}
+#right .head .help:hover{
+    opacity: 1;
+}
+#right .head .tro_giup {
+    color:#4d4949;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left:15px;
+}
+#right .head .tro_giup:hover{
+    opacity: 1;
+}
+#right #banner .banner_image h3{
+    margin-top: 30px;
+    text-indent: 40px;
+    color: #3f83ca;
+    font-size:25px;
+    font-style: normal;
+}
+#right #banner .banner_image .hinh{
+    margin:5px 40px 20px 40px;
+    float: left;
+    width:346px;
+    margin-bottom: 40px;
+}
+#right #banner .banner_image .hinh .hinh_personal{
+    box-shadow: 0px -8px 1px #bfd537;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left:10px;
+}
+#right #banner .banner_image .hinh .hinh_personal h3{
+    font-size: 20px;
+    margin:10px 0px 0px -10px;
+}
+#right #banner .banner_image .hinh a .button{
+    background-color: #083d74;
+    opacity: 0.8;
+    font-size: 13px;
+    color: white;
+    margin: 15px 0px 0px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+#right #banner .banner_image .hinh a .button:hover{
+    opacity: 1;
+}
+#right #banner .banner_image .hinh .hinh_enterprise{ 
+    float: left;
+    box-shadow: 0px -8px 1px #bfd537;
+    width: 100% ;
+    height: auto;
+    margin: -285px 10px 0px 430px;
+}
+#right #banner .banner_image .hinh .hinh_enterprise h3{
+    font-size: 20px;
+    margin:10px 0px 0px -10px;
+}
+
+#right #bottom .bottom_gif {
+  margin-left: -8px;
+  
+}
+#right #bottom .bottom_gif img{
+    width: 750px;
+    margin-top:-15px;
+}
+#right #bottom .content{
+    margin-top:10px;
+    margin-left: -10px;
+    width: 750px;
+}
+#right #bottom .content .content_a{
+    text-align: left;
+    width: auto;
+    color: #3f83ca;
+    font-weight: bold;
+    font-size: 15px;
+}
+#right #bottom .content .content_b a{
+    text-align: left;
+    width: auto;
+    color: #3f83ca;
+    font-size: 13px;
+    opacity: 0.8;
+    text-decoration:none;
+}
+#right #bottom .content .content_b a:hover{
+    opacity: 1;
+    text-decoration: underline;
+    color: #2a2828;
+}
+#right #bottom .content .content_b span{
+    color: gray;
+    font-size: 13px;
+    opacity: 0.8;
+    text-decoration:none;
+}
+#right #bottom .content td .content_bottom {
+    font-size: 20px;
+    vertical-align: middle;
+}
+#right #bottom .content .format_table{
+   margin-left: 250px;
+}
+#right #bottom .content .format_table td a{
+    color: #3f83ca;
+    font-size: 14px;
+    opacity: 0.8;
+    text-decoration: none;   
+}
+#right #bottom .content .format_table td a:hover{
+    text-decoration: underline;
+}
+
+/* Css phần cá nhân*/
+#right #banner .banner_image .banner_image_ca_nhan .border_top{
+    width: 770px;;
+    height: 250px;
+    margin:0px 50px 10px 50px;
+    box-shadow: 0px -8px 1px #bfd537;
+    border-radius: 3px;
+    float: left;
+}
+
+#right #banner .banner_image .banner_image_ca_nhan img {
+    float:left;
+    width:350px;
+    height: 200px;
+}
+#right #banner .banner_image .banner_image_ca_nhan input{
+    width:270px;
+    height: 20px;
+    margin:0px 0px 10px 40px;
+}
+#right #banner .banner_image .banner_image_ca_nhan input:focus{
+    border-color: 00c2f5;
+    content: none;
+}
+#right #banner .banner_image .banner_image_ca_nhan .border_top a button{
+    background-color: #083d74;
+    opacity: 0.9;
+    font-size: 13px;
+    color: white;
+    margin: 15px 0px 0px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin:0px 0px 0px 40px;
+}
+#right #banner .banner_image .banner_image_ca_nhan .border_top a button:hover{
+    opacity: 1;
+}
+#right #banner .banner_image .banner_image_ca_nhan .border_top .keyboard{
+    margin-left:330px;
+    width:25px;
+    height: 17px;
+    margin-top:-30px;
+    cursor: pointer;
+}
+#right #banner .banner_image .banner_image_ca_nhan .border_top .capcha{
+    margin-left:190px;
+    width:100px;
+    height: 25px;
+    margin-top:-33px;
+}
+#right #banner .banner_image .banner_image_khuyenmai{
+    width:780px;
+    height: auto;
+    margin-left: 50px;
+}
+#right #banner .banner_image .banner_image_khuyenmai img{
+    width: 100%;
+
+}
+/*CSS phần thông tin bảo lãnh*/
+.banner_tracuu h3{
+    color:#3f83ca;
+    margin:30px 0px 20px 40px;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+}
+#banner p,strong{
+    font-size: 13px;
+    color: #4d4949;
+    margin-left: 40px;
+    width: 800px;
+}
+#right #banner .banner_box{
+    width: 790px;
+    height: 300px;
+    margin:20px 0px 0px 40px;
+    background-color: #f7f7f7;
+    box-shadow: 0px -8px 0px #bfd537;
+    border-radius: 4px;
+    
+}
+#right #banner .banner_box .banner_top{
+    width: 770px;
+    height: 40px;
+    background-color:#3f83ca;
+    color: white;
+    line-height: 40px;
+    padding-left: 20px;
+
+}
+#right #banner .banner_box .noidung{
+    color: #4d4949;
+    font-size: 13px;
+    padding-top: 5px;
+    line-height: 30px;
+}
+#right #banner .banner_box .noidung input{
+    width:380px;
+    height: 25px;
+    margin-left: 50px;
+}
+#right #banner .banner_box .noidung a input{
+    width:110px;
+    height: 30px;
+    background-color:#073473;
+    color: white;
+    opacity: 0.8;
+    margin-left: 400px;
+    margin-top:10px;
+    border-radius:3px;
+    cursor: pointer;
+}
+#right #banner .banner_box .noidung a input:hover{
+    opacity: 1;
+}
+/*css phần mobile*/
+#mb_head{
+    width:1340px;
+    background-color:none;
+    height: 50px;
+    margin-left: -120px;
+    margin-top:20px;
+}
+#mb_head .head_left{
+    width:200px;
+    height: auto;
+}
+#mb_head .head_right{
+    width:200px;
+    height: 50px;
+    float: right;
+}
+#mb_border{
+    width: 1340px;
+    background-color:#1584cc;
+    height: 30px;
+    margin-left: -120px;
+    
+}
+#mb_border ul{
+    padding: 0px;
+    margin:0px;
+}
+#mb_border ul li{
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    
+}
+#mb_border ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    border-left: 1px solid gray;
+    height: 30px;
+    padding:5px;
+}
+#mb_border ul li a:hover{
+    color: #fef5a6;
+}
+#mb_noidung{
+    width: 1340px;
+    height: 380px;
+    margin-left: -120px;
+    text-align: center;
+}
+#mb_footer{
+    width: 1340px;
+    background-color:#f7f7f7;
+    height: 40px;
+    margin-left: -120px;  
+    line-height: 40px;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+#mb_footer .noi_dung{
+    margin-top: -15px;
+    text-align: center;
+    margin-left: -50px;
+}
+#mb_footer .noi_dung strong{
+    font-size: 12px;
+    color: #4d4949;
+    
+}
+#mb_footer .noi_dung p{
+    font-size: 12px;
+    color: #4d4949;
+    margin-top:-20px;
+    
+}
+#mb_noidung .khung_top,.khung_bottom {
+    border: 1px solid #d7eaf1;
+
+}
+#mb_noidung .khung .khung_top{
+    width: 230px;
+    height: 40px;
+    background-color: white;
+    margin-left: 530px;
+    background : radial-gradient(circle, #d7eaf1,white);
+    margin-top:15px;
+}
+#mb_noidung .khung .khung_top img{
+    margin-left:25px;
+    margin-top:10px;
+}
+#mb_noidung .khung .khung_bottom{
+    width: 230px;
+    height: 185px;
+    background-color: white;
+    margin-left: 530px;
+    background : radial-gradient(circle, #d7eaf1,white);
+}
+#mb_noidung .khung .khung_bottom .nd_table  tr td {
+    font-size:13px;
+    text-align: center;
+}
+#mb_noidung .khung .khung_bottom .nd_table  input{
+    margin-left:25px;
+}
+#mb_noidung .khung .khung_bottom .nd_table .img{
+    float:right;
+    position: relative;
+    margin-top:-25px;
+    left:3px;
+    width:80px;
+    height: 20px;
+}
+#mb_noidung .khung .khung_bottom .button{
+    width:100px;
+    height: 25px;
+    background-color:#1ea3d2;
+    color: white;
+    opacity: 0.8;
+    margin-left: 5px;
+    margin-top:0px;
+    border-radius:3px;
+    cursor: pointer;
+}
+#mb_noidung .khung .khung_bottom .button:hover{
+    opacity: 1;
+}
+#mb_noidung .nd_bottom p{
+   margin-left:-40px;
+   margin-top:10px;
+   color: #2a2828;
+   font-size: 13px;
+}
+#mb_noidung .image{
+  margin-left:-40px;
+}
+
+
+.git{
+    background: red ;
+    width: 182px;
+    height: 2000px;
+    margin: 5px 5px 0px 0px;
+    border:1px solid gray;
+    font-size: 13px;
+    line-height: 13px;
+    color: #4d4949;
+    border-bottom: hidden;
+    padding-bottom: -10px;
+}
